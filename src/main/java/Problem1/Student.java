@@ -1,5 +1,7 @@
 package Problem1;
 
+import java.util.List;
+
 public class Student {
     Integer id;
     String name;
@@ -48,6 +50,10 @@ public class Student {
         this.studentId = studentId;
     }
 
+    public List<Student> getAllStudent(){
+        return null;
+
+    }
     public Student addStudent(Student student){
         return null;
     }
